@@ -1,9 +1,8 @@
 # Bateson
-Bateson is a datastorage for complex information. Complex information, in the sense of heavily interlinked.
-Bateson used relationality and patterns to store and retreive data. 
+Bateson is a datastorage for complex(heavily interlinked) information. It is based on the idea notions of "hierarchy", "objects" and "attributs" are not an intrinsic property of the world but a subjective matter. Therefore it only stores relationships between values, which correspond to sensory observations in the real world. The heart of Bateson are what it calles "Patterns", which allow for multiple overlapping boundries and conflicting hierarchies to exist at the same time.
 
 ## Data Model
-Bateson can store three types of atomic information A Relatum, A Relation and A Patterns
+Bateson can store three types of atomic information: Relata, Relations and Patterns
 
 ### A Relatum is an atomic value.
 A Relatum is an observation in the world, a piece of information.
@@ -110,7 +109,11 @@ You can even create patterns of patterns.
 PATTERN connected_friendgroup(
     friendgroup.A know friendgroup.A
 )
+   O         O
+ /   \     /   \
+O  _  O _ O  _  O
 ```
+
 
 ### Updating information
 Find anything called "john" and rename it to "jon"
